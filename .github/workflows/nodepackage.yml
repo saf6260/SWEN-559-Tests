@@ -29,5 +29,5 @@ jobs:
     - name: Testing code
       run: |
         node index.js
-      env: |
+      env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
